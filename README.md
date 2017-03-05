@@ -4,7 +4,7 @@ Built with [Bone.IO](http://bone.io/) and Skeleton.css, this is a flat-file CMS,
 
 ### Why Bone.IO?
 
-Although Bone.IO is intended to work with Socket hasn't seen a commit in 3 years, as of March 3rd, 2017, I really liked the way it would allow me to organize logic.
+Although Bone.IO is intended to work with Socket and hasn't seen a commit in 3 years, as of March 3rd, 2017, I really liked the way it would allow me to organize logic. I'm also currently working on a bigger project that also uses Bone.IO.
 
 ### Why Skeleton.CSS?
 

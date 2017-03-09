@@ -33,7 +33,7 @@ Additionally, `getJS(source)` can take a single string or array of strings and w
 after loading the last script, it will hide the loader BUT it doesn't automatically start the loader.
 #### Template Example:
 
-    I have implemented [luxbar](https://github.com/balzss/luxbar) as an example
+I have implemented [luxbar](https://github.com/balzss/luxbar) as an example
 HardCoded: You can just stuff in the HTML
     '''
     var htmlData = '<header id="luxbar" class="luxbar-fixed"><input type="checkbox" id="luxbar-checkbox"/><div class="luxbar-menu luxbar-menu-right luxbar-menu-material-bluegrey"><ul class="luxbar-navigation">';

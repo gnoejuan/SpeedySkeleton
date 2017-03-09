@@ -19,7 +19,8 @@ Return an element, don't append the element to the document.
 
 ### Utilities:
 
-I have included a function called `setAttributes()` that takes two arguments, a document element and an object of attribute names and attribute values. `var luxbarCheckbox = document.createElement("input");
+I have included a function called `setAttributes()` that takes two arguments, a document element and an object of attribute names and attribute values. 
+    `var luxbarCheckbox = document.createElement("input");
     setAttributes(luxbarCheckbox,{"type":"checkbox","id":"luxbar-checkbox"})
     document.body.append(luxbarCheckbox)`
 
@@ -34,16 +35,18 @@ after loading the last script, it will hide the loader BUT it doesn't automatica
 #### Template Example:
 
 I have implemented [luxbar](https://github.com/balzss/luxbar) as an example
-HardCoded: You can just stuff in the HTML
-    '''
+
+#### HardCoded: You can just stuff in the HTML
+ ```   
     var htmlData = '<header id="luxbar" class="luxbar-fixed"><input type="checkbox" id="luxbar-checkbox"/><div class="luxbar-menu luxbar-menu-right luxbar-menu-material-bluegrey"><ul class="luxbar-navigation">';
     htmlData = htmlData + '<li class="luxbar-header"><a href="#" class="luxbar-brand">'+ data.name + '</a><label class="luxbar-hamburger luxbar-hamburger-doublespin" id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label></li>' 
     for(x in data.nav){
         htmlData = htmlData + '<li class="luxbar-item"><a href="\#' + data.nav[x] + '">' + data.nav[x] +  '</a></li>'
     }
     return(htmlData);
-    '''
-Pure JS:
+    
+```
+#### Pure JS:
     '''
     function navbarTemplate(data){
         var navElement = document.createElement("nav");

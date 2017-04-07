@@ -1,0 +1,8 @@
+div(class="luxbar luxbar-fixed")
+    input(type="checkbox" id="luxbar-checkbox")
+    div(class="luxbar-menu luxbar-menu-material-bluegrey")
+        ul(class="luxbar-navigation")
+            each val in data
+                li(class ="luxbar-item")
+                    a(href ="\#"+val)= val
+                    

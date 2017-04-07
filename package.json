@@ -1,0 +1,11 @@
+{
+  "name": "boneio",
+  "version": "1.0.0",
+  "description": "boneio router test",
+  "main": "index.html",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Charles Rodriguez",
+  "license": "ISC"
+}

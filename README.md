@@ -1,6 +1,6 @@
 # SpeedySkeleton.io
 
-Built with [Bone.IO](http://bone.io/) and [Skeleton.css](http://getskeleton.com/), this is a flat-file CMS, much like [Grav](https://getgrav.org/) and [cms.js](https://cdmedia.github.io/cms.js/). I wanted this because I felt that cms.js didn't have enough documentation on how to expand the functionalities such as grouping posts by type, and Grav was a lot to take. I also want users to be able to easily apply themes found around the internet.
+Built with [Bone.IO](http://bone.io/) and [Skeleton.css](http://getskeleton.com/), this is a flat-file CMS, much like [Grav](https://getgrav.org/) and [cms.js](https://cdmedia.github.io/cms.js/). I wanted this because I felt that cms.js didn't have enough documentation on how to expand the functionalities such as grouping posts by type, and Grav was a lot to learn. I also want users to be able to easily apply themes found around the internet.
 
 ### Why Bone.IO?
 
@@ -16,6 +16,21 @@ It's basically the bare minimum to have a responsive website.
 Bone.IO provides a templating function
 
 Return an element, don't append the element to the document.
+
+### Timeline
+
+- [ x ] Provide a way to load JavaScript files without blocking interaction. 
+- [  ] Provide a way to load CSS files without blocking interaction.
+- [  ] serve Markdown files
+- [  ] serve HTML files without interfering with Markdown rendering.
+- [  ] provide the option to use a config file
+- [  ] move to bower
+- [  ] update [bower-browser](https://github.com/rakuten-frontend/bower-browser)
+- [  ] Move to node and create a script to minify everything. 
+- [  ] create a GUI working with node
+- [  ] Move to Meteor (?) for a desktop WYSIWYG editor
+- [  ] Ability to read and analyze CSS files and Demo.html files to help guide implementing found themes.
+- [  ] Implement the ability to integrate a backend.
 
 ### Utilities:
 
@@ -45,7 +60,7 @@ I have implemented [luxbar](https://github.com/balzss/luxbar) as an example
     }
     return(htmlData);
     
-```
+ ```
 #### Pure JS:
     '''
     function navbarTemplate(data){
@@ -63,14 +78,4 @@ All you need is a callable function.
 ```c#
 /**TODO**/
 ```
-
-## Timeline
-
-- actually serve Markdown files
-- work with a config.json
-- move to bower
-- Move to node and create a script to minify everything. 
-- create a GUI working with node
-- Move to Meteor (?) for a desktop WYSIWYG editor
-- Ability to read and analyze CSS files and Demo.html files to help guide implementing found themes.
 

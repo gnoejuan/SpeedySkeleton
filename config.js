@@ -4,7 +4,7 @@ var configuration = {
     "GitHubUserName": "Broster",
     "repository": "https://github.com/gnoejuan/SpeedySkeleton",
     "postTypes": {
-        /*folder : Navigation Display*/
+        /*folder : Display Name*/
         "blogs": "Posts",
         "twitch": "Twitch Project",
         "cmsProject": "Spooky Skeleton",
